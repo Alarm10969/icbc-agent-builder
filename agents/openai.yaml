@@ -1,0 +1,13 @@
+interface:
+  display_name: 工行智能体制作
+  short_description: 依据已验证原生模板制作工行行内智能体，生成导入JSON并检查节点、分支与循环
+  default_prompt: 使用 $icbc-agent-builder，按我的需求制作可导入工行行内智能体设计器的JSON，并附测试样例。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
